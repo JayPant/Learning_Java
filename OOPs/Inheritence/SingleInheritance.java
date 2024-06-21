@@ -1,17 +1,17 @@
 package OOPs.Inheritence;
 
-class Animal{
+class Animals{
     void eat()
     {System.out.println("Eating......");}
 }
 
-class Dog extends Animal{
+class Dogs extends Animals{
     void bark()
     {System.out.println("Barking........");}
 }
 public class SingleInheritance {
     public static void main(String[] args) {
-        Dog d= new Dog();
+        Dogs d= new Dogs();
     d.eat();
     d.bark();
     }

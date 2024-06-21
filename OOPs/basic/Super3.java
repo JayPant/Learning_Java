@@ -6,8 +6,8 @@ class Animal{
     { System.out.println("Animal Created");}
 }
 
-class Dog extends Animal{
-    Dog()
+class Dogs extends Animal{
+    Dogs()
     {
         super();
         System.out.println("Dog is created");
@@ -15,6 +15,6 @@ class Dog extends Animal{
 }
 class Super3 {
     public static void main(String[] args) {
-        Dog d = new Dog();
+        Dogs d = new Dogs();
     }
 }

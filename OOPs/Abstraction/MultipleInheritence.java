@@ -1,7 +1,7 @@
 package OOPs.Abstraction;
 
 
-interface  first{
+interface rst{
  void show();
     
 }
@@ -10,7 +10,7 @@ interface second {
 void display();
     
 }
-public class MultipleInheritence implements first,second{
+public class MultipleInheritence implements rst,second{
     public void show()
     {
         System.out.println("Show method from interface first");
